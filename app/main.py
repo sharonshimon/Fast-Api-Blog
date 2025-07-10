@@ -24,6 +24,4 @@ app = FastAPI(lifespan=lifespan)
 # Main API routers
 app.include_router(post_router)
 
-# --- SQL-based endpoints for reference are now in sql_reference_endpoints.py ---
-# They are not included in the main app by
 
